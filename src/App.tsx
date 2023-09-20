@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import NavBar from "./components/header/NavBar";
 function App() {
   const [zoom, setZoom] = useState(0.5);
   const [rotation, setRotation] = useState(0);
@@ -7,6 +8,7 @@ function App() {
   const [yAxis, setYAxis] = useState(0);
   return (
     <>
+    <NavBar />
       <div className="w-screen h-[80vh] flex justify-center items-center">
         <motion.h1
           className=" bg-slate-400 rounded px-10 py-5"
@@ -14,8 +16,10 @@ function App() {
             x: xAxis,
             y: yAxis,
             scale: zoom,
-            rotate: rotation,
+            rotate: rotation, transition:[0,1],
           }}
+          drag
+           whileDrag={{backgroundColor:'teal'}}
         >
           Hello How are you!
         </motion.h1>
