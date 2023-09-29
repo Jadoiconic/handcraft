@@ -1,0 +1,43 @@
+/* eslint-disable import/no-anonymous-default-export */
+export default [
+  {
+    id: 1,
+    name: "Product 1",
+    price: 200,
+    decription: "",
+    quantity: 0,
+    impact: "",
+    images: ["https://plus.unsplash.com/premium_photo-1677700640509-0de0e668e03b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"],
+    category: "",
+  },
+  {
+    id: 2,
+    name: "Product 2",
+    price: 200,
+    decription: "",
+    quantity: 0,
+    impact: "",
+    images: ["https://images.unsplash.com/photo-1536000800373-5b5e6020910a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2944&q=80","https://images.unsplash.com/photo-1622076358551-aaf9a65a0878?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2864&q=80"],
+    category: "",
+  },
+  {
+    id: 3,
+    name: "Product 3",
+    price: 200,
+    decription: "",
+    quantity: 0,
+    impact: "",
+    images: ["https://plus.unsplash.com/premium_photo-1677700640509-0de0e668e03b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"],
+    category: "",
+  },
+  {
+    id: 4,
+    name: "Product 4",
+    price: 200,
+    decription: "",
+    quantity: 0,
+    impact: "",
+    images: ["https://images.unsplash.com/photo-1536000800373-5b5e6020910a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2944&q=80","https://images.unsplash.com/photo-1622076358551-aaf9a65a0878?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2864&q=80"],
+    category: "",
+  },
+];
