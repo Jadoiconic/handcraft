@@ -5,7 +5,7 @@ const Dashboard = () => {
   return (
     <>
       <DashboardLayout>
-        <h1>HEllo Admin</h1>
+        <h1 className='px-4'>HEllo Admin</h1>
       </DashboardLayout>
     </>
   )
