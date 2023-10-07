@@ -12,7 +12,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
       <div className="hidden w-full h-screen md:flex lg:flex fixed">
         <div className="shadow-md h-[95vh] w-1/6 bg-slate-700 stiky top-20">
           <nav className="py-4">
-            <ul>
+          <ul>
               <li className="hover:bg-slate-400 px-4 py-1 flex items-center">
                 <div className="w-2 h-2 rounded-full bg-red-300" />
                 <NavLink to="/dashboard" className="text-white text-lg mx-2">
@@ -21,19 +21,19 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
               </li>
               <li className="hover:bg-slate-400 px-4 py-1 flex items-center">
                 <div className="w-2 h-2 rounded-full bg-red-300" />
-                <NavLink to="" className="text-white text-lg mx-2">
+                <NavLink to="/newPrduct" className="text-white text-lg mx-2">
                   New Product
                 </NavLink>
               </li>
               <li className="hover:bg-slate-400 px-4 py-1 flex items-center">
                 <div className="w-2 h-2 rounded-full bg-red-300" />
-                <NavLink to="" className="text-white text-lg mx-2">
+                <NavLink to="/orders" className="text-white text-lg mx-2">
                   Pending Orders
                 </NavLink>
               </li>
               <li className="hover:bg-slate-400 px-4 py-1 flex items-center">
                 <div className="w-2 h-2 rounded-full bg-red-300" />
-                <NavLink to="" className="text-white text-lg mx-2">
+                <NavLink to="/reports" className="text-white text-lg mx-2">
                   Reports
                 </NavLink>
               </li>
