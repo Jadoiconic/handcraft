@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoMdClose } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 
 const AdminHeader = () => {
@@ -15,7 +16,8 @@ const AdminHeader = () => {
               T
             </div>
             <button onClick={()=>setOpenNav(!openNav)} className="px-4 md:hidden lg:hidden">
-              <GiHamburgerMenu />
+              {!openNav ? <GiHamburgerMenu /> : <IoMdClose />}
+              
             </button>
           </nav>
         </div>
@@ -32,7 +34,7 @@ const AdminHeader = () => {
               <li className="hover:bg-slate-400 px-4 py-1 flex items-center">
                 <div className="w-2 h-2 rounded-full bg-red-300" />
                 <NavLink to="/newPrduct" className="text-white text-lg mx-2">
-                  New Product
+                  Products
                 </NavLink>
               </li>
               <li className="hover:bg-slate-400 px-4 py-1 flex items-center">

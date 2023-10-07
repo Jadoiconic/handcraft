@@ -22,7 +22,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
               <li className="hover:bg-slate-400 px-4 py-1 flex items-center">
                 <div className="w-2 h-2 rounded-full bg-red-300" />
                 <NavLink to="/newPrduct" className="text-white text-lg mx-2">
-                  New Product
+                  Products
                 </NavLink>
               </li>
               <li className="hover:bg-slate-400 px-4 py-1 flex items-center">
